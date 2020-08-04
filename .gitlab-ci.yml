@@ -1,0 +1,8 @@
+stages:
+    - run
+    
+run:
+ stage: run
+ script:
+    - python3 main.py
+    
